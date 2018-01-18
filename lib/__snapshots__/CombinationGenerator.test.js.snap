@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CombinationGenerator generates by one 1`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "numbers": Array [
+      1,
+    ],
+    "operations": Array [],
+    "priorities": Array [],
+  },
+}
+`;
+
+exports[`CombinationGenerator generates by one 2`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+    ],
+    "operations": Array [
+      "add",
+    ],
+    "priorities": Array [
+      0,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator generates by one 3`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+    ],
+    "operations": Array [
+      "subtract",
+    ],
+    "priorities": Array [
+      0,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator generates by one 4`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "add",
+      "add",
+    ],
+    "priorities": Array [
+      0,
+      1,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator generates by one 5`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "add",
+      "add",
+    ],
+    "priorities": Array [
+      1,
+      0,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator generates by one 6`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "add",
+      "subtract",
+    ],
+    "priorities": Array [
+      0,
+      1,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator generates by one 7`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "add",
+      "subtract",
+    ],
+    "priorities": Array [
+      1,
+      0,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator generates by one 8`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "subtract",
+      "add",
+    ],
+    "priorities": Array [
+      0,
+      1,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator generates by one 9`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "subtract",
+      "add",
+    ],
+    "priorities": Array [
+      1,
+      0,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator generates by one 10`] = `
+Object {
+  "done": false,
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "subtract",
+      "subtract",
+    ],
+    "priorities": Array [
+      0,
+      1,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator generates by one 11`] = `
+Object {
+  "done": true,
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "subtract",
+      "subtract",
+    ],
+    "priorities": Array [
+      1,
+      0,
+    ],
+  },
+}
+`;
