@@ -1,8 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CombinationGenerator in batches generates by one for given batch 1`] = `
+exports[`CombinationGenerator in batches generates by one for given batch from beginning 1`] = `
 Object {
-  "done": false,
   "value": Object {
     "numbers": Array [
       1,
@@ -13,9 +12,8 @@ Object {
 }
 `;
 
-exports[`CombinationGenerator in batches generates by one for given batch 2`] = `
+exports[`CombinationGenerator in batches generates by one for given batch from beginning 2`] = `
 Object {
-  "done": false,
   "value": Object {
     "numbers": Array [
       1,
@@ -31,9 +29,8 @@ Object {
 }
 `;
 
-exports[`CombinationGenerator in batches generates by one for given batch 3`] = `
+exports[`CombinationGenerator in batches generates by one for given batch from beginning 3`] = `
 Object {
-  "done": true,
   "value": Object {
     "numbers": Array [
       1,
@@ -49,49 +46,160 @@ Object {
 }
 `;
 
-exports[`CombinationGenerator in batches generates by one for given batch 4`] = `
+exports[`CombinationGenerator in batches generates by one for given batch from end 1`] = `
 Object {
-  "done": false,
   "value": Object {
     "numbers": Array [
+      1,
+      2,
       3,
     ],
-    "operations": Array [],
-    "priorities": Array [],
+    "operations": Array [
+      "subtract",
+      "subtract",
+    ],
+    "priorities": Array [
+      0,
+      1,
+    ],
   },
 }
 `;
 
-exports[`CombinationGenerator in batches generates by one for given batch 5`] = `
+exports[`CombinationGenerator in batches generates by one for given batch from end 2`] = `
 Object {
-  "done": false,
   "value": Object {
     "numbers": Array [
+      1,
+      2,
       3,
-      4,
     ],
     "operations": Array [
-      "add",
+      "subtract",
+      "subtract",
     ],
     "priorities": Array [
+      1,
       0,
     ],
   },
 }
 `;
 
-exports[`CombinationGenerator in batches generates by one for given batch 6`] = `
+exports[`CombinationGenerator in batches generates by one for given batch from middle 1 1`] = `
 Object {
-  "done": true,
   "value": Object {
     "numbers": Array [
+      1,
+      2,
       3,
-      4,
     ],
     "operations": Array [
+      "add",
+      "add",
+    ],
+    "priorities": Array [
+      0,
+      1,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator in batches generates by one for given batch from middle 1 2`] = `
+Object {
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "add",
+      "add",
+    ],
+    "priorities": Array [
+      1,
+      0,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator in batches generates by one for given batch from middle 1 3`] = `
+Object {
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "add",
       "subtract",
     ],
     "priorities": Array [
+      0,
+      1,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator in batches generates by one for given batch from middle 2 1`] = `
+Object {
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "add",
+      "subtract",
+    ],
+    "priorities": Array [
+      1,
+      0,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator in batches generates by one for given batch from middle 2 2`] = `
+Object {
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "subtract",
+      "add",
+    ],
+    "priorities": Array [
+      0,
+      1,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator in batches generates by one for given batch from middle 2 3`] = `
+Object {
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "subtract",
+      "add",
+    ],
+    "priorities": Array [
+      1,
       0,
     ],
   },
@@ -100,7 +208,6 @@ Object {
 
 exports[`CombinationGenerator without batches generates by one 1`] = `
 Object {
-  "done": false,
   "value": Object {
     "numbers": Array [
       1,
@@ -113,7 +220,6 @@ Object {
 
 exports[`CombinationGenerator without batches generates by one 2`] = `
 Object {
-  "done": false,
   "value": Object {
     "numbers": Array [
       1,
@@ -131,7 +237,6 @@ Object {
 
 exports[`CombinationGenerator without batches generates by one 3`] = `
 Object {
-  "done": false,
   "value": Object {
     "numbers": Array [
       1,
@@ -149,7 +254,6 @@ Object {
 
 exports[`CombinationGenerator without batches generates by one 4`] = `
 Object {
-  "done": false,
   "value": Object {
     "numbers": Array [
       1,
@@ -170,7 +274,6 @@ Object {
 
 exports[`CombinationGenerator without batches generates by one 5`] = `
 Object {
-  "done": false,
   "value": Object {
     "numbers": Array [
       1,
@@ -191,7 +294,6 @@ Object {
 
 exports[`CombinationGenerator without batches generates by one 6`] = `
 Object {
-  "done": false,
   "value": Object {
     "numbers": Array [
       1,
@@ -212,7 +314,6 @@ Object {
 
 exports[`CombinationGenerator without batches generates by one 7`] = `
 Object {
-  "done": false,
   "value": Object {
     "numbers": Array [
       1,
@@ -233,7 +334,6 @@ Object {
 
 exports[`CombinationGenerator without batches generates by one 8`] = `
 Object {
-  "done": false,
   "value": Object {
     "numbers": Array [
       1,
@@ -254,7 +354,6 @@ Object {
 
 exports[`CombinationGenerator without batches generates by one 9`] = `
 Object {
-  "done": false,
   "value": Object {
     "numbers": Array [
       1,
@@ -275,7 +374,6 @@ Object {
 
 exports[`CombinationGenerator without batches generates by one 10`] = `
 Object {
-  "done": false,
   "value": Object {
     "numbers": Array [
       1,
@@ -296,7 +394,6 @@ Object {
 
 exports[`CombinationGenerator without batches generates by one 11`] = `
 Object {
-  "done": true,
   "value": Object {
     "numbers": Array [
       1,
