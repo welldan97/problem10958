@@ -1,0 +1,276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Solver finds all combinations 1`] = `
+Array [
+  Object {
+    "numbers": Array [
+      1,
+    ],
+    "operations": Array [],
+    "priorities": Array [],
+    "result": 1,
+  },
+  Object {
+    "numbers": Array [
+      1,
+      2,
+    ],
+    "operations": Array [
+      "add",
+    ],
+    "priorities": Array [
+      0,
+    ],
+    "result": 3,
+  },
+  Object {
+    "numbers": Array [
+      1,
+      2,
+    ],
+    "operations": Array [
+      "multiply",
+    ],
+    "priorities": Array [
+      0,
+    ],
+    "result": 2,
+  },
+  Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "add",
+      "add",
+    ],
+    "priorities": Array [
+      0,
+      1,
+    ],
+    "result": 6,
+  },
+  Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "add",
+      "add",
+    ],
+    "priorities": Array [
+      1,
+      0,
+    ],
+    "result": 6,
+  },
+  Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "add",
+      "multiply",
+    ],
+    "priorities": Array [
+      0,
+      1,
+    ],
+    "result": 9,
+  },
+  Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "add",
+      "multiply",
+    ],
+    "priorities": Array [
+      1,
+      0,
+    ],
+    "result": 7,
+  },
+  Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "multiply",
+      "add",
+    ],
+    "priorities": Array [
+      0,
+      1,
+    ],
+    "result": 5,
+  },
+  Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "multiply",
+      "add",
+    ],
+    "priorities": Array [
+      1,
+      0,
+    ],
+    "result": 5,
+  },
+  Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "multiply",
+      "multiply",
+    ],
+    "priorities": Array [
+      0,
+      1,
+    ],
+    "result": 6,
+  },
+  Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "multiply",
+      "multiply",
+    ],
+    "priorities": Array [
+      1,
+      0,
+    ],
+    "result": 6,
+  },
+]
+`;
+
+exports[`Solver finds soltions for given batch 1`] = `
+Array [
+  Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "add",
+      "add",
+    ],
+    "priorities": Array [
+      0,
+      1,
+    ],
+    "result": 6,
+  },
+  Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "add",
+      "add",
+    ],
+    "priorities": Array [
+      1,
+      0,
+    ],
+    "result": 6,
+  },
+  Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "add",
+      "multiply",
+    ],
+    "priorities": Array [
+      0,
+      1,
+    ],
+    "result": 9,
+  },
+]
+`;
+
+exports[`Solver finishes once condition met 1`] = `
+Array [
+  Object {
+    "numbers": Array [
+      1,
+    ],
+    "operations": Array [],
+    "priorities": Array [],
+    "result": 1,
+  },
+  Object {
+    "numbers": Array [
+      1,
+      2,
+    ],
+    "operations": Array [
+      "add",
+    ],
+    "priorities": Array [
+      0,
+    ],
+    "result": 3,
+  },
+  Object {
+    "numbers": Array [
+      1,
+      2,
+    ],
+    "operations": Array [
+      "multiply",
+    ],
+    "priorities": Array [
+      0,
+    ],
+    "result": 2,
+  },
+  Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "add",
+      "add",
+    ],
+    "priorities": Array [
+      0,
+      1,
+    ],
+    "result": 6,
+  },
+]
+`;
