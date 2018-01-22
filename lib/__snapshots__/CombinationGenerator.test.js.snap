@@ -206,6 +206,89 @@ Object {
 }
 `;
 
+exports[`CombinationGenerator in batches generates by one for given batch which starts in the middle of number iteration and ends in the middle of the next one 1`] = `
+Object {
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "subtract",
+      "add",
+    ],
+    "priorities": Array [
+      1,
+      0,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator in batches generates by one for given batch which starts in the middle of number iteration and ends in the middle of the next one 2`] = `
+Object {
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "subtract",
+      "subtract",
+    ],
+    "priorities": Array [
+      0,
+      1,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator in batches generates by one for given batch which starts in the middle of number iteration and ends in the middle of the next one 3`] = `
+Object {
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+    ],
+    "operations": Array [
+      "subtract",
+      "subtract",
+    ],
+    "priorities": Array [
+      1,
+      0,
+    ],
+  },
+}
+`;
+
+exports[`CombinationGenerator in batches generates by one for given batch which starts in the middle of number iteration and ends in the middle of the next one 4`] = `
+Object {
+  "value": Object {
+    "numbers": Array [
+      1,
+      2,
+      3,
+      4,
+    ],
+    "operations": Array [
+      "add",
+      "add",
+      "add",
+    ],
+    "priorities": Array [
+      0,
+      1,
+      2,
+    ],
+  },
+}
+`;
+
 exports[`CombinationGenerator without batches generates by one 1`] = `
 Object {
   "value": Object {
