@@ -3,6 +3,7 @@
 exports[`Solver finds all combinations 1`] = `
 Array [
   Object {
+    "index": 0,
     "numbers": Array [
       1,
     ],
@@ -11,6 +12,7 @@ Array [
     "result": 1,
   },
   Object {
+    "index": 1,
     "numbers": Array [
       1,
       2,
@@ -24,6 +26,7 @@ Array [
     "result": 3,
   },
   Object {
+    "index": 2,
     "numbers": Array [
       1,
       2,
@@ -37,6 +40,7 @@ Array [
     "result": 2,
   },
   Object {
+    "index": 3,
     "numbers": Array [
       1,
       2,
@@ -53,6 +57,7 @@ Array [
     "result": 6,
   },
   Object {
+    "index": 4,
     "numbers": Array [
       1,
       2,
@@ -69,6 +74,7 @@ Array [
     "result": 6,
   },
   Object {
+    "index": 5,
     "numbers": Array [
       1,
       2,
@@ -85,6 +91,7 @@ Array [
     "result": 9,
   },
   Object {
+    "index": 6,
     "numbers": Array [
       1,
       2,
@@ -101,6 +108,7 @@ Array [
     "result": 7,
   },
   Object {
+    "index": 7,
     "numbers": Array [
       1,
       2,
@@ -117,6 +125,7 @@ Array [
     "result": 5,
   },
   Object {
+    "index": 8,
     "numbers": Array [
       1,
       2,
@@ -133,6 +142,7 @@ Array [
     "result": 5,
   },
   Object {
+    "index": 9,
     "numbers": Array [
       1,
       2,
@@ -149,6 +159,7 @@ Array [
     "result": 6,
   },
   Object {
+    "index": 10,
     "numbers": Array [
       1,
       2,
@@ -170,6 +181,7 @@ Array [
 exports[`Solver finds soltions for given batch 1`] = `
 Array [
   Object {
+    "index": 3,
     "numbers": Array [
       1,
       2,
@@ -186,6 +198,7 @@ Array [
     "result": 6,
   },
   Object {
+    "index": 4,
     "numbers": Array [
       1,
       2,
@@ -202,6 +215,7 @@ Array [
     "result": 6,
   },
   Object {
+    "index": 5,
     "numbers": Array [
       1,
       2,
@@ -223,6 +237,7 @@ Array [
 exports[`Solver finishes once condition met 1`] = `
 Array [
   Object {
+    "index": 0,
     "numbers": Array [
       1,
     ],
@@ -231,6 +246,7 @@ Array [
     "result": 1,
   },
   Object {
+    "index": 1,
     "numbers": Array [
       1,
       2,
@@ -244,6 +260,7 @@ Array [
     "result": 3,
   },
   Object {
+    "index": 2,
     "numbers": Array [
       1,
       2,
@@ -257,6 +274,7 @@ Array [
     "result": 2,
   },
   Object {
+    "index": 3,
     "numbers": Array [
       1,
       2,
