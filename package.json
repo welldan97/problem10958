@@ -5,6 +5,7 @@
   "author": "Dmitry Yakimov <welldan97@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "jest": "^22.1.1"
+    "jest": "^22.1.1",
+    "napajs": "^0.2.0"
   }
 }
