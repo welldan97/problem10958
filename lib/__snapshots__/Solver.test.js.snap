@@ -4,7 +4,7 @@ exports[`Solver finds all combinations 1`] = `
 Array [
   Object {
     "index": 0,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
     ],
     "operations": Array [],
@@ -13,12 +13,12 @@ Array [
   },
   Object {
     "index": 1,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
     ],
     "operations": Array [
-      "add",
+      0,
     ],
     "priorities": Array [
       0,
@@ -27,12 +27,12 @@ Array [
   },
   Object {
     "index": 2,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
     ],
     "operations": Array [
-      "multiply",
+      1,
     ],
     "priorities": Array [
       0,
@@ -41,14 +41,14 @@ Array [
   },
   Object {
     "index": 3,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
       3,
     ],
     "operations": Array [
-      "add",
-      "add",
+      0,
+      0,
     ],
     "priorities": Array [
       0,
@@ -58,14 +58,14 @@ Array [
   },
   Object {
     "index": 4,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
       3,
     ],
     "operations": Array [
-      "add",
-      "add",
+      0,
+      0,
     ],
     "priorities": Array [
       1,
@@ -75,14 +75,14 @@ Array [
   },
   Object {
     "index": 5,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
       3,
     ],
     "operations": Array [
-      "add",
-      "multiply",
+      0,
+      1,
     ],
     "priorities": Array [
       0,
@@ -92,14 +92,14 @@ Array [
   },
   Object {
     "index": 6,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
       3,
     ],
     "operations": Array [
-      "add",
-      "multiply",
+      0,
+      1,
     ],
     "priorities": Array [
       1,
@@ -109,14 +109,14 @@ Array [
   },
   Object {
     "index": 7,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
       3,
     ],
     "operations": Array [
-      "multiply",
-      "add",
+      1,
+      0,
     ],
     "priorities": Array [
       0,
@@ -126,14 +126,14 @@ Array [
   },
   Object {
     "index": 8,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
       3,
     ],
     "operations": Array [
-      "multiply",
-      "add",
+      1,
+      0,
     ],
     "priorities": Array [
       1,
@@ -143,14 +143,14 @@ Array [
   },
   Object {
     "index": 9,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
       3,
     ],
     "operations": Array [
-      "multiply",
-      "multiply",
+      1,
+      1,
     ],
     "priorities": Array [
       0,
@@ -160,14 +160,14 @@ Array [
   },
   Object {
     "index": 10,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
       3,
     ],
     "operations": Array [
-      "multiply",
-      "multiply",
+      1,
+      1,
     ],
     "priorities": Array [
       1,
@@ -182,14 +182,14 @@ exports[`Solver finds soltions for given batch 1`] = `
 Array [
   Object {
     "index": 3,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
       3,
     ],
     "operations": Array [
-      "add",
-      "add",
+      0,
+      0,
     ],
     "priorities": Array [
       0,
@@ -199,14 +199,14 @@ Array [
   },
   Object {
     "index": 4,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
       3,
     ],
     "operations": Array [
-      "add",
-      "add",
+      0,
+      0,
     ],
     "priorities": Array [
       1,
@@ -216,14 +216,14 @@ Array [
   },
   Object {
     "index": 5,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
       3,
     ],
     "operations": Array [
-      "add",
-      "multiply",
+      0,
+      1,
     ],
     "priorities": Array [
       0,
@@ -238,7 +238,7 @@ exports[`Solver finishes once condition met 1`] = `
 Array [
   Object {
     "index": 0,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
     ],
     "operations": Array [],
@@ -247,12 +247,12 @@ Array [
   },
   Object {
     "index": 1,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
     ],
     "operations": Array [
-      "add",
+      0,
     ],
     "priorities": Array [
       0,
@@ -261,12 +261,12 @@ Array [
   },
   Object {
     "index": 2,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
     ],
     "operations": Array [
-      "multiply",
+      1,
     ],
     "priorities": Array [
       0,
@@ -275,14 +275,14 @@ Array [
   },
   Object {
     "index": 3,
-    "numbers": Array [
+    "numbers": Uint8Array [
       1,
       2,
       3,
     ],
     "operations": Array [
-      "add",
-      "add",
+      0,
+      0,
     ],
     "priorities": Array [
       0,
