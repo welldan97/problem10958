@@ -2,11 +2,11 @@
 
 exports[`OperationsGenerator with  batches generates operations by one for given batch 1`] = `
 Object {
-  "operations": Array [
+  "operations": Uint8Array [
     0,
     0,
   ],
-  "priorities": Array [
+  "priorities": Uint8Array [
     0,
     1,
   ],
@@ -15,11 +15,11 @@ Object {
 
 exports[`OperationsGenerator with  batches generates operations by one for given batch 2`] = `
 Object {
-  "operations": Array [
+  "operations": Uint8Array [
     0,
     0,
   ],
-  "priorities": Array [
+  "priorities": Uint8Array [
     1,
     0,
   ],
@@ -28,11 +28,11 @@ Object {
 
 exports[`OperationsGenerator with  batches generates operations by one for given batch 3`] = `
 Object {
-  "operations": Array [
+  "operations": Uint8Array [
     0,
     1,
   ],
-  "priorities": Array [
+  "priorities": Uint8Array [
     0,
     1,
   ],
@@ -41,11 +41,11 @@ Object {
 
 exports[`OperationsGenerator with  batches generates operations by one for given batch 4`] = `
 Object {
-  "operations": Array [
+  "operations": Uint8Array [
     0,
     1,
   ],
-  "priorities": Array [
+  "priorities": Uint8Array [
     1,
     0,
   ],
@@ -54,11 +54,11 @@ Object {
 
 exports[`OperationsGenerator with  batches generates operations by one for given batch 5`] = `
 Object {
-  "operations": Array [
+  "operations": Uint8Array [
     1,
     1,
   ],
-  "priorities": Array [
+  "priorities": Uint8Array [
     0,
     1,
   ],
@@ -67,11 +67,11 @@ Object {
 
 exports[`OperationsGenerator with  batches generates operations by one for given batch 6`] = `
 Object {
-  "operations": Array [
+  "operations": Uint8Array [
     1,
     1,
   ],
-  "priorities": Array [
+  "priorities": Uint8Array [
     1,
     0,
   ],
@@ -80,11 +80,11 @@ Object {
 
 exports[`OperationsGenerator without batches generates operations by one 1`] = `
 Object {
-  "operations": Array [
+  "operations": Uint8Array [
     0,
     0,
   ],
-  "priorities": Array [
+  "priorities": Uint8Array [
     0,
     1,
   ],
@@ -93,11 +93,11 @@ Object {
 
 exports[`OperationsGenerator without batches generates operations by one 2`] = `
 Object {
-  "operations": Array [
+  "operations": Uint8Array [
     0,
     0,
   ],
-  "priorities": Array [
+  "priorities": Uint8Array [
     1,
     0,
   ],
@@ -106,11 +106,11 @@ Object {
 
 exports[`OperationsGenerator without batches generates operations by one 3`] = `
 Object {
-  "operations": Array [
+  "operations": Uint8Array [
     0,
     1,
   ],
-  "priorities": Array [
+  "priorities": Uint8Array [
     0,
     1,
   ],
@@ -119,11 +119,11 @@ Object {
 
 exports[`OperationsGenerator without batches generates operations by one 4`] = `
 Object {
-  "operations": Array [
+  "operations": Uint8Array [
     0,
     1,
   ],
-  "priorities": Array [
+  "priorities": Uint8Array [
     1,
     0,
   ],
@@ -132,11 +132,11 @@ Object {
 
 exports[`OperationsGenerator without batches generates operations by one 5`] = `
 Object {
-  "operations": Array [
+  "operations": Uint8Array [
     1,
     0,
   ],
-  "priorities": Array [
+  "priorities": Uint8Array [
     0,
     1,
   ],
@@ -145,11 +145,11 @@ Object {
 
 exports[`OperationsGenerator without batches generates operations by one 6`] = `
 Object {
-  "operations": Array [
+  "operations": Uint8Array [
     1,
     0,
   ],
-  "priorities": Array [
+  "priorities": Uint8Array [
     1,
     0,
   ],
@@ -158,11 +158,11 @@ Object {
 
 exports[`OperationsGenerator without batches generates operations by one 7`] = `
 Object {
-  "operations": Array [
+  "operations": Uint8Array [
     1,
     1,
   ],
-  "priorities": Array [
+  "priorities": Uint8Array [
     0,
     1,
   ],
@@ -171,11 +171,11 @@ Object {
 
 exports[`OperationsGenerator without batches generates operations by one 8`] = `
 Object {
-  "operations": Array [
+  "operations": Uint8Array [
     1,
     1,
   ],
-  "priorities": Array [
+  "priorities": Uint8Array [
     1,
     0,
   ],
